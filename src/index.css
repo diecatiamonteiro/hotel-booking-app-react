@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #0c2b5a; /* Deep blue */
+  --secondary-color: #2a5298; /* Lighter blue */
+  --background-color: #f8f9fa; /* Light gray */
+  --text-color: #333; /* Dark gray for text */
+  --accent-color: #c7370f; /* Accent color for buttons or highlights */
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  line-height: 1.6;
+}
