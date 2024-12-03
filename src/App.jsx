@@ -7,6 +7,9 @@ import Footer from "./components/Footer";
 import Destinations from "./pages/Destinations";
 import Offers from "./pages/Offers";
 import ScrollToTop from "./components/ScrollToTop";
+import HotelsList from './pages/HotelsList';
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/destinations" element={<Destinations />} />
         <Route path="/offers" element={<Offers />} />
+        <Route path="/hotels" element={<HotelsList />} />
       </Routes>
       <Footer />
     </BrowserRouter>
