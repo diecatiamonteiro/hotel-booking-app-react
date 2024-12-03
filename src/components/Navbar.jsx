@@ -11,18 +11,31 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleLogoClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const handleNavClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav>
-      <Link to="/" id="logo">
+      <Link to="/" id="logo" onClick={handleLogoClick}>
         <SiHiltonhotelsandresorts />
         Hotel Booking
       </Link>
       <button className="hamburger" onClick={toggleMenu}>
         <FaBars />
       </button>
-      <div className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
-        <Link to="/destinations" onClick={() => setIsMenuOpen(false)}>Destinations</Link>
-        <Link to="/offers" onClick={() => setIsMenuOpen(false)}>Offers</Link>
+      <div className={`nav-links ${isMenuOpen ? "active" : ""}`}>
+        <Link to="/destinations" onClick={handleNavClick}>
+          Destinations
+        </Link>
+        <Link to="/offers" onClick={handleNavClick}>
+          Offers
+        </Link>
       </div>
     </nav>
   );

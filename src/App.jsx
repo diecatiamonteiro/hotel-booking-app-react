@@ -6,10 +6,11 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Destinations from "./pages/Destinations";
 import Offers from "./pages/Offers";
-
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
