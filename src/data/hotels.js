@@ -91,7 +91,7 @@ const fees = {
   petFee: 30 // Daily pet fee
 };
 
-const hotelTemplates = [
+export const hotelTemplates = [
   {
     name: "Grand Palace Hotel",
     chainCode: "GP",

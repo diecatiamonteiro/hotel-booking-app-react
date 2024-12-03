@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { generateHotelsForCity } from '../data/hotels';
 import '../styles/Home.css';
 
+
 const Home = () => {
   const [searchParams, setSearchParams] = useState({
     city: '',

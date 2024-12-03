@@ -1,0 +1,160 @@
+#root {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+.hotel-details-container {
+    max-width: 1200px;
+    margin: 80px auto 20px;
+    padding: 20px;
+  }
+  
+  .hotel-card {
+    display: flex;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 24px;
+  }
+  
+  .hotel-images {
+    width: 40%;
+    margin-right: 24px;
+  }
+  
+  .main-image {
+    margin-bottom: 12px;
+  }
+  
+  .main-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .thumbnail-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .hotel-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .hotel-name {
+    font-size: 28px;
+    margin: 0 0 12px;
+    color: #2c3e50;
+  }
+  
+  .hotel-description {
+    color: #666;
+    margin-bottom: 24px;
+  }
+  
+  .amenities-section {
+    margin-top: 24px;
+  }
+  
+  .amenities-section h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #2c3e50;
+  }
+  
+  .amenities-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .amenity-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #666;
+  }
+  
+  .amenity-item svg {
+    color: #0071c2;
+    font-size: 20px;
+  }
+  
+  .additional-info {
+    border-top: 1px solid #eee;
+    padding-top: 16px;
+  }
+  
+  .parking-info,
+  .pet-policy {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    color: #666;
+  }
+  
+  .price-section {
+    text-align: right;
+  }
+  
+  .price {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 16px;
+  }
+  
+  .currency {
+    font-size: 24px;
+    margin-right: 4px;
+  }
+  
+  .per-night {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .select-button {
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .select-button:hover {
+    background-color: #005999;
+  }
+  
+  @media (max-width: 768px) {
+    .hotel-card {
+      flex-direction: column;
+    }
+  
+    .hotel-images {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 24px;
+    }
+  
+    .amenities-list {
+      grid-template-columns: 1fr;
+    }
+  
+    .price-section {
+      text-align: left;
+      margin-top: 24px;
+    }
+  }
