@@ -25,7 +25,7 @@ nav {
 nav a {
   color: #1f1f1f;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   padding: 8px 16px;
   transition: color 0.2s ease;
@@ -35,7 +35,7 @@ nav a:hover {
   color: #0071c2;
 }
 
-nav a:first-child {
+#logo {
   font-size: 20px;
   font-weight: 600;
   margin-right: auto;
@@ -46,6 +46,9 @@ nav a:first-child {
   align-items: center;
   gap: 16px;
 }
+.nav-links a {
+  font-size: 1rem;
+}
 
 .hamburger {
   display: none;
@@ -55,7 +58,6 @@ nav a:first-child {
   padding: 8px;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
   .hamburger {
     display: block;
