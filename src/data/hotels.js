@@ -59,7 +59,7 @@ const mealPlans = {
 };
 
 // Hotel amenities categories
-const hotelAmenities = {
+export const hotelAmenities = {
   wellness: [
     "Spa", "Fitness center", "Yoga classes", "Swimming pool", "Sauna", 
     "Steam room", "Hot tub", "Massage services"
@@ -94,6 +94,7 @@ const fees = {
 export const hotelTemplates = [
   {
     name: "Grand Palace Hotel",
+    city: " ",
     chainCode: "GP",
     starRating: 5,
     description: "Luxury hotel featuring elegant rooms, world-class spa, and stunning city views.",
@@ -128,10 +129,12 @@ export const hotelTemplates = [
       guarantee: "Credit card required for reservation",
       pets: "Allowed with additional fee",
       children: "Children under 12 stay free with parents"
-    }
+    },
+    parking: "Our hotel has underground parking spaces you can request for a fee.You will also find bike racks with e-charging stations for bicycles."
   },
   {
     name: "Riverside Inn",
+    city: " ",
     chainCode: "RI",
     starRating: 4,
     description: "Charming inn located by the river, offering cozy rooms and a relaxing atmosphere.",
@@ -164,10 +167,12 @@ export const hotelTemplates = [
       cancellation: "Free cancellation up to 48 hours before check-in",
       guarantee: "Credit card required for reservation",
       pets: "Allowed with additional fee"
-    }
+    },
+    parking: "Our hotel has underground parking spaces you can request for a fee.You will also find bike racks with e-charging stations for bicycles."
   },
   {
     name: "City Center Hotel",
+    city: " ",
     chainCode: "CC",
     starRating: 3,
     description: "Conveniently located in the city center, offering affordable accommodations.",
@@ -198,10 +203,12 @@ export const hotelTemplates = [
     policies: {
       cancellation: "Free cancellation up to 72 hours before check-in",
       guarantee: "Credit card required for reservation"
-    }
+    },
+    parking: "Our hotel has underground parking spaces you can request for a fee.You will also find bike racks with e-charging stations for bicycles."
   },
   {
     name: "Seaside Resort",
+    city: " ",
     chainCode: "SR",
     starRating: 5,
     description: "Luxurious resort by the sea, offering stunning views and top-notch amenities.",
@@ -235,10 +242,12 @@ export const hotelTemplates = [
       cancellation: "Free cancellation up to 24 hours before check-in",
       guarantee: "Credit card required for reservation",
       pets: "Allowed with additional fee"
-    }
+    },
+    parking: "Our hotel has underground parking spaces you can request for a fee.You will also find bike racks with e-charging stations for bicycles."
   },
   {
     name: "Mountain Lodge",
+    city: " ",
     chainCode: "ML",
     starRating: 4,
     description: "Cozy lodge nestled in the mountains, perfect for a peaceful retreat.",
@@ -271,10 +280,12 @@ export const hotelTemplates = [
       cancellation: "Free cancellation up to 48 hours before check-in",
       guarantee: "Credit card required for reservation",
       pets: "Allowed with additional fee"
-    }
+    },
+    parking: "Our hotel has underground parking spaces you can request for a fee.You will also find bike racks with e-charging stations for bicycles."
   },
   {
     name: "Urban Boutique Hotel",
+    city: " ",
     chainCode: "UB",
     starRating: 4,
     description: "Stylish boutique hotel in the heart of the city, offering personalized service.",
@@ -307,10 +318,12 @@ export const hotelTemplates = [
       cancellation: "Free cancellation up to 24 hours before check-in",
       guarantee: "Credit card required for reservation",
       pets: "Allowed with additional fee"
-    }
+    },
+    parking: "Our hotel has underground parking spaces you can request for a fee.You will also find bike racks with e-charging stations for bicycles."
   },
   {
     name: "Historic Castle Hotel",
+    city: " ",
     chainCode: "HC",
     starRating: 5,
     description: "Stay in a historic castle with luxurious rooms and a unique atmosphere.",
@@ -344,10 +357,12 @@ export const hotelTemplates = [
       cancellation: "Free cancellation up to 24 hours before check-in",
       guarantee: "Credit card required for reservation",
       pets: "Allowed with additional fee"
-    }
+    },
+    parking: "Our hotel has underground parking spaces you can request for a fee.You will also find bike racks with e-charging stations for bicycles."
   },
   {
     name: "Eco-Friendly Retreat",
+    city: " ",
     chainCode: "EF",
     starRating: 4,
     description: "Sustainable hotel offering eco-friendly accommodations and organic dining.",
@@ -380,10 +395,12 @@ export const hotelTemplates = [
       cancellation: "Free cancellation up to 48 hours before check-in",
       guarantee: "Credit card required for reservation",
       pets: "Allowed with additional fee"
-    }
+    },
+    parking: "Our hotel has underground parking spaces you can request for a fee.You will also find bike racks with e-charging stations for bicycles."
   },
   {
     name: "Skyline Tower Hotel",
+    city: " ",
     chainCode: "ST",
     starRating: 5,
     description: "Modern luxury high-rise hotel with panoramic city views and rooftop infinity pool.",
@@ -418,7 +435,8 @@ export const hotelTemplates = [
       guarantee: "Credit card required for reservation",
       pets: "Not allowed",
       children: "Children under 12 stay free with parents"
-    }
+    },
+    parking: "Our hotel has underground parking spaces you can request for a fee.You will also find bike racks with e-charging stations for bicycles."
   }
 ];
 
