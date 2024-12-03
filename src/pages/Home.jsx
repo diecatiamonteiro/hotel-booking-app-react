@@ -1,14 +1,14 @@
 import "../styles/Home.css";
 import HeroHomePage from "../components/HeroHomePage";
+import HomePopularDestinations from "../components/HomePopularDestinations";
+import HomeSpecialOffers from "../components/HomeSpecialOffers";
 
 const Home = () => {
   return (
     <main>
       <HeroHomePage />
-      <div className="home-content">
-        <h2>Discover Your Dream Vacation</h2>
-        <p>Explore our wide range of accommodations and find the perfect place to stay for your next trip.</p>
-      </div>
+      <HomePopularDestinations />
+      <HomeSpecialOffers />
     </main>
   );
 };
